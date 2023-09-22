@@ -29,7 +29,7 @@ const WorkCard: FC<CardProps> = ({ previousWork }) => {
           <img
             src={previousWork.image}
             alt={previousWork.title}
-            className="w-full h-48 object-contain group-hover:animate-custom-bounce"
+            className="w-full h-48 md:h-64 object-contain group-hover:animate-custom-bounce"
           />
         </div>
 
