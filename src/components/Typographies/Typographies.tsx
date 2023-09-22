@@ -53,3 +53,19 @@ export const BlackParagraph: FC<TypographyProps> = ({ children, style }) => {
     </p>
   );
 };
+
+export const CardTitles: FC<TypographyProps> = ({ children, style }) => {
+  return (
+    <p className={styles["cardTitles"]} style={style}>
+      {children}
+    </p>
+  );
+};
+
+export const CardSubTitles: FC<TypographyProps> = ({ children, style }) => {
+  return (
+    <p className={styles["cardSubtitles"]} style={style}>
+      {children}
+    </p>
+  );
+};
