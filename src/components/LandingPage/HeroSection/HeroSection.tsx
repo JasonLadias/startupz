@@ -1,6 +1,7 @@
 import { FC } from "react";
 import Button from "@/components/Button";
 import { H1, YellowParagraph } from "@/components/Typographies/Typographies";
+import Anchor from "@/components/Anchor";
 
 const HeroSection: FC = () => {
   return (
@@ -25,7 +26,9 @@ const HeroSection: FC = () => {
             <YellowParagraph>
               We are startup studio that develops and launches new companies.
             </YellowParagraph>
-            <Button>See our works</Button>
+            <Anchor href="#works">
+              <Button>See our works</Button>
+            </Anchor>
           </div>
         </div>
         {/* Image animation on the right */}

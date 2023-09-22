@@ -14,9 +14,9 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 const Footer: FC = () => {
   return (
     <footer className="bg-back-gray py-20">
-      <div className="grid md:grid-cols-4 grid-cols-2 gap-6 px-4 lg:container">
+      <div className="grid lg:grid-cols-4 grid-cols-2 gap-6 px-4 lg:container">
         {/* Logo Column */}
-        <div className="md:col-start-1 md:col-end-2 col-start-2 col-end-3 row-start-2 md:row-start-1">
+        <div className="lg:col-start-1 lg:col-end-2 col-start-2 col-end-3 row-start-2 lg:row-start-1">
           <img src="/logo.svg" alt="Company Logo" className="mb-4" />
           <AllRightsReserved>
             © 2020 Startupz. <br />
@@ -25,7 +25,7 @@ const Footer: FC = () => {
         </div>
 
         {/* Companies Column */}
-        <div className="md:col-start-2 md:col-end-3 col-start-1 col-end-2 row-start-1">
+        <div className="lg:col-start-2 lg:col-end-3 col-start-1 col-end-2 row-start-1">
           <FooterTitle style={{ marginBottom: "1rem" }}>Companies</FooterTitle>
           {ourWorks.map((work, index) => (
             <Anchor href={work.url} key={index}>
@@ -35,7 +35,7 @@ const Footer: FC = () => {
         </div>
 
         {/* Contact Column */}
-        <div className="md:col-start-3 md:col-end-4 col-start-2 col-end-3 row-start-1">
+        <div className="lg:col-start-3 lg:col-end-4 col-start-2 col-end-3 row-start-1">
           <FooterTitle style={{ marginBottom: "1rem" }}>Contact</FooterTitle>
           <address className={styles["address"]}>
             World Trade Center - The Hague
@@ -53,7 +53,7 @@ const Footer: FC = () => {
         </div>
 
         {/* Follow Us Column */}
-        <div className="md:col-start-4 md:col-end-5 col-start-1 col-end-2 row-start-2 md:row-start-1">
+        <div className="lg:col-start-4 lg:col-end-5 col-start-1 col-end-2 row-start-2 lg:row-start-1">
           <FooterTitle style={{ marginBottom: "1rem" }}>Follow us</FooterTitle>
           <div className="flex flex-col items-start gap-2">
             <Anchor href="https://twitter.com">

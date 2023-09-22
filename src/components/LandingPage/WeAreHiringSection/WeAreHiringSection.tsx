@@ -4,8 +4,12 @@ import { H2, YellowParagraph } from "@/components/Typographies/Typographies";
 import { FC } from "react";
 
 const WeAreHiringSection: FC = () => {
+
+ 
+
   return (
     <section
+      id="hiring"
       className={`bg-back-gray w-full py-20 lg:py-11rem relative flex flex-col items-center`}
     >
       <div className="flex flex-row items-center justify-between md:hidden">

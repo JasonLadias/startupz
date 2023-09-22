@@ -6,10 +6,14 @@ import SolvingProblemsSection from "./SolvingProblemsSection";
 import CoreValuesSection from "./CoreValuesSection";
 import OurWorksSection from "./OurWorksSection";
 import WeAreHiringSection from "./WeAreHiringSection";
+import Head from "next/head";
 
 const LandingPage: FC = () => {
   return (
     <div>
+      <Head>
+        <title>StartupZ - Where Dreams Come True</title>
+      </Head>
       <HeroSection />
       <GraySection>
         <WhoWeAreSection />

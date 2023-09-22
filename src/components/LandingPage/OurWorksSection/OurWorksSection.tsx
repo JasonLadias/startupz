@@ -6,7 +6,7 @@ import { ourWorks } from "@/services/constants";
 
 const OurWorksSection: FC = () => {
   return (
-    <section className="w-full py-20 lg:py-11rem lg:container">
+    <section id="works" className="w-full py-20 lg:py-11rem lg:container">
       <div className="flex flex-col items-center gap-10 px-4 lg:px-0">
         <H2 style={{ textAlign: "center" }}>Our Works</H2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">

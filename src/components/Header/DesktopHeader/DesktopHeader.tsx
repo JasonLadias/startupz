@@ -15,17 +15,17 @@ const DesktopHeader: FC = () => {
         />
       </Anchor>
       <div className="flex flex-row justify-start items-center gap-10">
-        <Anchor href="/">
+        <Anchor href="#works">
           <span className="text-lg text-text-gray hover:text-brand-green">
             Startups
           </span>
         </Anchor>
-        <Anchor href="/">
+        <Anchor href="#hiring">
           <span className="text-lg text-text-gray hover:text-brand-green">
             Contact
           </span>
         </Anchor>
-        <Anchor href="/">
+        <Anchor href="/jobs">
           <Button variant="outlined">Work with us!</Button>
         </Anchor>
       </div>
