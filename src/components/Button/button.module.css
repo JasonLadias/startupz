@@ -12,7 +12,7 @@
 }
 
 .textContained:hover {
-  background-color:  var(--brand-green-dark);
+  background-color: var(--brand-green-dark);
   transition: all 0.3s ease;
 }
 

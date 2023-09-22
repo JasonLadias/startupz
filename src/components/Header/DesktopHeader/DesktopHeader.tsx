@@ -16,10 +16,14 @@ const DesktopHeader: FC = () => {
       </Anchor>
       <div className="flex flex-row justify-start items-center gap-10">
         <Anchor href="/">
-          <span className="text-lg text-text-grey hover:text-brand-green">Startups</span>
+          <span className="text-lg text-text-gray hover:text-brand-green">
+            Startups
+          </span>
         </Anchor>
         <Anchor href="/">
-          <span className="text-lg text-text-grey hover:text-brand-green">Contact</span>
+          <span className="text-lg text-text-gray hover:text-brand-green">
+            Contact
+          </span>
         </Anchor>
         <Anchor href="/">
           <Button variant="outlined">Work with us!</Button>

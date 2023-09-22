@@ -1,15 +1,40 @@
 .header1 {
-    font-size: 85px;
-    font-weight: 700;
-    line-height: 85px;
-    color: var(--text-gray);
-    margin: 0;
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 85px;
+  color: var(--text-gray);
+  margin: 0;
 }
 
 .yellowParagraph {
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 30px;
-    color: var(--brand-orange);
-    margin: 0;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--brand-orange);
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .header1 {
+    font-size: 64px;
+    line-height: 70px;
+  }
+
+  .yellowParagraph {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (max-width: 768px) {
+  .header1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .yellowParagraph {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }

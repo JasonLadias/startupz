@@ -3,6 +3,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 import { FC, useCallback, useState } from "react";
 import MobileMenuDrawer from "./MobileMenuDrawer";
+import ClickAwayHandler from "@/components/ClickAwayHandler";
 
 const MobileHeader: FC = () => {
   const [isShowing, setIsShowing] = useState(false);
@@ -30,10 +31,12 @@ const MobileHeader: FC = () => {
           <MenuIcon />
         </div>
       </div>
-      <MobileMenuDrawer
-        isShowing={isShowing}
-        setIsShowing={changeMenuShowing}
-      />
+      <ClickAwayHandler onClickAway={() => setIsShowing(false)}>
+        <MobileMenuDrawer
+          isShowing={isShowing}
+          setIsShowing={changeMenuShowing}
+        />
+      </ClickAwayHandler>
     </>
   );
 };

@@ -27,7 +27,7 @@ const MobileHeader: FC<MobileHeaderProps> = ({ isShowing, setIsShowing }) => {
         leaveFrom="opacity-100"
         leaveTo="opacity-0"
       >
-        <div className="fixed right-0 top-0 bg-slate-100 opacity-100 z-10 h-full sm:w-1/2 w-full px-4 py-2">
+        <div className="fixed right-0 top-0 bg-back-gray opacity-100 z-10 h-full sm:w-1/2 w-full px-4 py-2">
           <div className="flex flex-row items-center justify-between border-b-1 border-black pb-1">
             <Anchor href="/">
               <img
@@ -51,16 +51,20 @@ const MobileHeader: FC<MobileHeaderProps> = ({ isShowing, setIsShowing }) => {
             <div className="w-full bg-black h-1" />
 
             <Anchor href="/" onClick={setIsShowing}>
-              <span className="text-lg text-text-grey hover:text-brand-green">Startups</span>
+              <span className="text-lg text-text-gray hover:text-brand-green">
+                Startups
+              </span>
             </Anchor>
             <div className="w-full border-b border-black" />
             <Anchor href="/" onClick={setIsShowing}>
-              <span className="text-lg text-text-grey hover:text-brand-green">Contact</span>
+              <span className="text-lg text-text-gray hover:text-brand-green">
+                Contact
+              </span>
             </Anchor>
             <div className="w-full border-b border-black" />
 
             <Anchor href="/" onClick={setIsShowing}>
-              <span className="text-lg text-text-grey hover:text-brand-green">
+              <span className="text-lg text-text-gray hover:text-brand-green">
                 Work with us!
               </span>
             </Anchor>

@@ -13,6 +13,24 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        "brand-green": "#46B8C8",
+        "brand-orange": "#FB8958",
+        "text-gray": "#3d4f5c",
+        "back-gray": "#fbfafa",
+        ...require("tailwindcss/colors"),
+      },
+      animation: {
+        slideInRight: "slideInRight 1s forwards",
+      },
+      maxWidth: {
+        "1/2": "50%",
+        "2/3": "66%",
+        "32rem": "32rem",
+      },
+      margin: {
+        "30vh": "30vh",
+      },
     },
     container: {
       center: true,
@@ -24,15 +42,6 @@ const config: Config = {
         lg: "2rem",
       },
     },
-    colors: {
-      "brand-green": "#46B8C8",
-      "brand-orange": "#FB8958",
-      "text-grey": "#3d4f5c",
-      ...require("tailwindcss/colors"),
-    },
-    animation: {
-      'slideInRight': 'slideInRight 1s forwards'
-    }
   },
   plugins: [],
 };
