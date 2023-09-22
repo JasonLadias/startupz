@@ -1,5 +1,5 @@
 import { H2, YellowParagraph } from "@/components/Typographies/Typographies";
-import { FC } from "react";
+import { FC, Fragment } from "react";
 import ValueComponent from "./ValueComponent";
 
 const whoWeAreArray = [
@@ -31,10 +31,10 @@ const WhoWeAreSection: FC = () => {
       </div>
       <div className="flex flex-col md:flex-row items-start justify-between gap-4 md:gap-12">
         {whoWeAreArray.map((value, index) => (
-          <>
-            <ValueComponent key={index} number={index + 1} text={value} />
+          <Fragment key={index}>
+            <ValueComponent number={index + 1} text={value} />
             <hr className="w-full border-text-gray md:hidden " />
-          </>
+          </Fragment>
         ))}
       </div>
     </div>

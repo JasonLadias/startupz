@@ -22,6 +22,14 @@ export const H2: FC<TypographyProps> = ({ children, style }) => {
   );
 };
 
+export const YellowH3: FC<TypographyProps> = ({ children, style }) => {
+  return (
+    <h3 className={styles["yellowHeader3"]} style={style}>
+      {children}
+    </h3>
+  );
+};
+
 export const YellowParagraph: FC<TypographyProps> = ({ children, style }) => {
   return (
     <p className={styles["yellowParagraph"]} style={style}>
