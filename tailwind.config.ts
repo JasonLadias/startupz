@@ -22,6 +22,7 @@ const config: Config = {
       },
       animation: {
         slideInRight: "slideInRight 1s forwards",
+        "custom-bounce": 'custom-bounce 2s infinite',
       },
       maxWidth: {
         "1/2": "50%",

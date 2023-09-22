@@ -19,6 +19,18 @@
   }
 }
 
+@keyframes custom-bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px); /* Adjust for less bounce */
+  }
+  60% {
+    transform: translateY(-5px); /* Adjust for less bounce */
+  }
+}
+
 @font-face {
   font-family: "CircularStd";
   src: url("/fonts/CircularStd-Medium.ttf") format("truetype");

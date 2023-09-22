@@ -13,7 +13,7 @@ interface CardProps {
 
 const WorkCard: FC<CardProps> = ({ previousWork }) => {
   return (
-    <div className="flex flex-col items-center justify-between p-10 gap-4 bg-white rounded-lg border shadow-lg w-full h-full">
+    <div className="flex flex-col items-center justify-between p-10 gap-4 bg-white rounded-lg border shadow-lg w-full h-full group hover:bg-gray-100 transition duration-200">
       {/* Title with dynamic color */}
       <div className="flex flex-col items-center gap-4">
         <CardTitles style={{ color: previousWork.color }}>
@@ -29,7 +29,7 @@ const WorkCard: FC<CardProps> = ({ previousWork }) => {
           <img
             src={previousWork.image}
             alt={previousWork.title}
-            className="w-full h-48 object-contain"
+            className="w-full h-48 object-contain group-hover:animate-custom-bounce"
           />
         </div>
 
