@@ -69,3 +69,27 @@ export const CardSubTitles: FC<TypographyProps> = ({ children, style }) => {
     </p>
   );
 };
+
+export const FooterTitle: FC<TypographyProps> = ({ children, style }) => {
+  return (
+    <p className={styles["footerTitle"]} style={style}>
+      {children}
+    </p>
+  );
+};
+
+export const AllRightsReserved: FC<TypographyProps> = ({ children, style }) => {
+  return (
+    <p className={styles["allRightsReserved"]} style={style}>
+      {children}
+    </p>
+  );
+};
+
+export const FooterLink: FC<TypographyProps> = ({ children, style }) => {
+  return (
+    <p className={styles["footerLink"]} style={style}>
+      {children}
+    </p>
+  );
+};

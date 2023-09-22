@@ -14,7 +14,7 @@ const MobileHeader: FC = () => {
 
   return (
     <>
-      <div className="flex flex-row items-center justify-between">
+      <header className="flex flex-row items-center justify-between">
         <Anchor href="/">
           <img
             src="/logo.svg"
@@ -30,7 +30,7 @@ const MobileHeader: FC = () => {
         >
           <MenuIcon />
         </div>
-      </div>
+      </header>
       <ClickAwayHandler onClickAway={() => setIsShowing(false)}>
         <MobileMenuDrawer
           isShowing={isShowing}

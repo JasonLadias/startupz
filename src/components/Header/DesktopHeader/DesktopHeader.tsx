@@ -4,7 +4,7 @@ import { FC } from "react";
 
 const DesktopHeader: FC = () => {
   return (
-    <div className="flex flex-row items-center justify-between">
+    <header className="flex flex-row items-center justify-between">
       <Anchor href="/">
         <img
           src="/logo.svg"
@@ -29,7 +29,7 @@ const DesktopHeader: FC = () => {
           <Button variant="outlined">Work with us!</Button>
         </Anchor>
       </div>
-    </div>
+    </header>
   );
 };
 

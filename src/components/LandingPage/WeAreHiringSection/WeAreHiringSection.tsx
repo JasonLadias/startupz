@@ -1,3 +1,4 @@
+import Anchor from "@/components/Anchor";
 import Button from "@/components/Button";
 import { H2, YellowParagraph } from "@/components/Typographies/Typographies";
 import { FC } from "react";
@@ -51,7 +52,9 @@ const WeAreHiringSection: FC = () => {
           }
         </YellowParagraph>
         <div className="flex flex-col items-center">
-          <Button variant="contained">See current openings</Button>
+          <Anchor href="/jobs">
+            <Button variant="contained">See current openings</Button>
+          </Anchor>
         </div>
       </div>
     </section>

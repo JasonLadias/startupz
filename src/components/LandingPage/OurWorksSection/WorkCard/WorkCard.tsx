@@ -1,11 +1,11 @@
 import { FC } from "react";
 import Button from "@/components/Button"; // Assuming you have a Button component
-import { WorkObject } from "../OurWorksSection";
 import {
   CardSubTitles,
   CardTitles,
 } from "@/components/Typographies/Typographies";
 import Anchor from "@/components/Anchor";
+import { WorkObject } from "@/services/constants";
 
 interface CardProps {
   previousWork: WorkObject;
