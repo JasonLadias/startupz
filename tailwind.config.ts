@@ -27,8 +27,12 @@ const config: Config = {
     colors: {
       "brand-green": "#46B8C8",
       "brand-orange": "#FB8958",
+      "text-grey": "#3d4f5c",
       ...require("tailwindcss/colors"),
     },
+    animation: {
+      'slideInRight': 'slideInRight 1s forwards'
+    }
   },
   plugins: [],
 };

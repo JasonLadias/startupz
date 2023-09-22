@@ -12,7 +12,8 @@
 }
 
 .textContained:hover {
-  background-color: blue;
+  background-color:  var(--brand-green-dark);
+  transition: all 0.3s ease;
 }
 
 .textOutlined {

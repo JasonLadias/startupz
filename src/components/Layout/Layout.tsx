@@ -16,7 +16,7 @@ const Layout: FC<LayoutProps> = ({ children }) => {
         <div className="lg:hidden">
           <MobileHeader />
         </div>
-        <main className="bg-white max-w-screen-100 min-h-[calc(100vh-16px)] lg:container">
+        <main className="bg-white max-w-screen-100 min-h-[calc(100vh-16px)]">
           {children}
         </main>
 

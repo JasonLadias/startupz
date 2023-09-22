@@ -4,7 +4,18 @@
 
 :root {
   --brand-green: #46b8c8;
+  --brand-green-dark: #3098a6;
   --brand-orange: #fb8958;
+  --text-gray: #3d4f5c;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 
 @font-face {

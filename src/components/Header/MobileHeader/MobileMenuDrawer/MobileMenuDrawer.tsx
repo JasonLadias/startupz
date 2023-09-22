@@ -51,16 +51,16 @@ const MobileHeader: FC<MobileHeaderProps> = ({ isShowing, setIsShowing }) => {
             <div className="w-full bg-black h-1" />
 
             <Anchor href="/" onClick={setIsShowing}>
-              <span className="text-lg hover:text-brand-green">Startups</span>
+              <span className="text-lg text-text-grey hover:text-brand-green">Startups</span>
             </Anchor>
             <div className="w-full border-b border-black" />
             <Anchor href="/" onClick={setIsShowing}>
-              <span className="text-lg hover:text-brand-green">Contact</span>
+              <span className="text-lg text-text-grey hover:text-brand-green">Contact</span>
             </Anchor>
             <div className="w-full border-b border-black" />
 
             <Anchor href="/" onClick={setIsShowing}>
-              <span className="text-lg hover:text-brand-green">
+              <span className="text-lg text-text-grey hover:text-brand-green">
                 Work with us!
               </span>
             </Anchor>
