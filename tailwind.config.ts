@@ -31,6 +31,9 @@ const config: Config = {
       margin: {
         "30vh": "30vh",
       },
+      padding: {
+        "11rem": "11rem",
+      },
     },
     container: {
       center: true,

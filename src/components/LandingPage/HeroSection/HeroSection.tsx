@@ -4,8 +4,8 @@ import { H1, YellowParagraph } from "@/components/Typographies/Typographies";
 
 const HeroSection: FC = () => {
   return (
-    <section className="lg:relative h-[calc(100vh-64px)] flex items-start">
-      <div className="lg:container w-full">
+    <section className="relative lg:h-[calc(100vh-64px)] flex items-start">
+      <div className="lg:container w-full py-12 px-4">
         {/* Image for mobile */}
         <div className="lg:hidden my-3 flex flex-col items-center w-full">
           <div className="sm:max-w-2/3">

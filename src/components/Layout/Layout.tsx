@@ -9,11 +9,11 @@ export type LayoutProps = {
 const Layout: FC<LayoutProps> = ({ children }) => {
   return (
     <>
-      <div className="bg-white shadow-md py-2 px-4 sticky top-0 z-50">
-        <div className="hidden lg:block container">
+      <div className="bg-white shadow-md sticky top-0 z-50">
+        <div className="hidden lg:block container py-2 px-4">
           <DesktopHeader />
         </div>
-        <div className="lg:hidden">
+        <div className="lg:hidden py-2 px-4">
           <MobileHeader />
         </div>
         <main className="bg-white max-w-screen-100 min-h-[calc(100vh-16px)]">

@@ -14,9 +14,33 @@ export const H1: FC<TypographyProps> = ({ children, style }) => {
   );
 };
 
+export const H2: FC<TypographyProps> = ({ children, style }) => {
+  return (
+    <h2 className={styles["header2"]} style={style}>
+      {children}
+    </h2>
+  );
+};
+
 export const YellowParagraph: FC<TypographyProps> = ({ children, style }) => {
   return (
     <p className={styles["yellowParagraph"]} style={style}>
+      {children}
+    </p>
+  );
+};
+
+export const YellowNumberSpan: FC<TypographyProps> = ({ children, style }) => {
+  return (
+    <div className={styles["yellowNumberSpan"]} style={style}>
+      {children}
+    </div>
+  );
+};
+
+export const BlackParagraph: FC<TypographyProps> = ({ children, style }) => {
+  return (
+    <p className={styles["blackParagraph"]} style={style}>
       {children}
     </p>
   );

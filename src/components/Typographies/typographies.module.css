@@ -6,9 +6,33 @@
   margin: 0;
 }
 
+.header2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  color: var(--text-gray);
+  margin: 0;
+}
+
 .yellowParagraph {
   font-size: 24px;
   font-weight: 400;
+  line-height: 30px;
+  color: var(--brand-orange);
+  margin: 0;
+}
+
+.blackParagraph {
+  font-size: 30px;
+  line-height: 38px;
+  color: var(--text-gray);
+  font-weight: 400;
+  margin: 0;
+}
+
+.yellowNumberSpan {
+  font-size: 30px;
+  font-weight: 700;
   line-height: 30px;
   color: var(--brand-orange);
   margin: 0;
@@ -18,6 +42,21 @@
   .header1 {
     font-size: 64px;
     line-height: 70px;
+  }
+
+  .header2 {
+    font-size: 40px;
+    line-height: 46px;
+  }
+
+  .yellowNumberSpan {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .blackParagraph {
+    font-size: 24px;
+    line-height: 30px;
   }
 
   .yellowParagraph {
@@ -31,6 +70,21 @@
   .header1 {
     font-size: 32px;
     line-height: 36px;
+  }
+
+  .header2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .yellowNumberSpan {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .blackParagraph {
+    font-size: 18px;
+    line-height: 24px;
   }
 
   .yellowParagraph {
