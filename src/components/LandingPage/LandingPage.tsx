@@ -13,6 +13,7 @@ const LandingPage: FC = () => {
     <div>
       <Head>
         <title>StartupZ - Where Dreams Come True</title>
+        <meta name="description" content="StartupZ - Where Dreams Come True" />
       </Head>
       <HeroSection />
       <GraySection>

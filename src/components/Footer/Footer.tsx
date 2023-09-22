@@ -58,13 +58,16 @@ const Footer: FC = () => {
           <div className="flex flex-col items-start gap-2">
             <Anchor href="https://twitter.com">
               <TwitterIcon className={styles["icon"]} />
+              <span style={{ opacity: 0, fontSize: '1px'}}>StartupZ Twitter</span>
             </Anchor>
             <Anchor href="https://linkedin.com">
               <LinkedInIcon className={styles["icon"]} />
+              <span style={{ opacity: 0, fontSize: '1px'}}>StartupZ LinkedIn</span>
             </Anchor>
 
             <Anchor href="https://instagram.com">
               <InstagramIcon className={styles["icon"]} />
+              <span style={{ opacity: 0, fontSize: '1px'}}>StartupZ Instagram</span>
             </Anchor>
           </div>
         </div>
