@@ -1,0 +1,35 @@
+.buttonBase {
+  border-radius: 9999px;
+  padding: 8px 32px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 18px;
+}
+
+.textContained {
+  background-color: var(--brand-green);
+  color: white;
+}
+
+.textContained:hover {
+  background-color: blue;
+}
+
+.textOutlined {
+  border: 1px solid var(--brand-green);
+  color: var(--brand-green);
+}
+
+.textOutlined:hover {
+  background-color: var(--brand-green);
+  color: white;
+}
+
+.textPlain {
+  color: inherit;
+  background: none;
+}
+
+.textPlain:hover {
+  background-color: lightgrey;
+}
