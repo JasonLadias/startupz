@@ -11,8 +11,18 @@
   color: white;
 }
 
+.submitContained {
+  background: #3d4f5c;
+  color: white;
+}
+
 .textContained:hover {
   background-color: var(--brand-green-dark);
+  transition: all 0.3s ease;
+}
+
+.submitContained:hover {
+  background-color: #2a3a44;
   transition: all 0.3s ease;
 }
 

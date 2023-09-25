@@ -7,6 +7,7 @@ import CoreValuesSection from "./CoreValuesSection";
 import OurWorksSection from "./OurWorksSection";
 import WeAreHiringSection from "./WeAreHiringSection";
 import Head from "next/head";
+import ContactSection from "./ContactSection";
 
 const LandingPage: FC = () => {
   return (
@@ -25,6 +26,7 @@ const LandingPage: FC = () => {
       </GraySection>
       <OurWorksSection />
       <WeAreHiringSection />
+      <ContactSection />
     </div>
   );
 };

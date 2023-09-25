@@ -4,9 +4,6 @@ import { H2, YellowParagraph } from "@/components/Typographies/Typographies";
 import { FC } from "react";
 
 const WeAreHiringSection: FC = () => {
-
- 
-
   return (
     <section
       id="hiring"

@@ -18,6 +18,7 @@ const config: Config = {
         "brand-orange": "#FB8958",
         "text-gray": "#3d4f5c",
         "back-gray": "#fbfafa",
+        "back-yellow": "#FFC351",
         ...require("tailwindcss/colors"),
       },
       animation: {
