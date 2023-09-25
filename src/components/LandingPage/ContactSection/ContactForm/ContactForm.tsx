@@ -80,6 +80,7 @@ const ContactForm: FC = () => {
     <form
       onSubmit={handleSubmit}
       className="space-y-4 w-full lg:w-1/2 bg-back-gray p-10 pt-16 rounded-md"
+      style={{ maxWidth: 600 }}
     >
       <div>
         <label
