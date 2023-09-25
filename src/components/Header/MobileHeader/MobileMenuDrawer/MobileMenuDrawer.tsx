@@ -35,7 +35,7 @@ const MobileHeader: FC<MobileHeaderProps> = ({ isShowing, setIsShowing }) => {
                 alt="logo"
                 width={200}
                 height={48}
-                loading="azy"
+                loading="lazy"
                 className="sm:hidden"
               />
             </Anchor>
