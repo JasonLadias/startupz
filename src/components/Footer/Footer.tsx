@@ -31,7 +31,9 @@ const Footer: FC = () => {
         {/* Companies Column */}
         <div className="lg:col-start-2 lg:col-end-3 col-start-1 col-end-2 row-start-1">
           <div className="flex flex-col h-full">
-            <FooterTitle style={{ marginBottom: "1rem" }}>Companies</FooterTitle>
+            <FooterTitle style={{ marginBottom: "1rem" }}>
+              Companies
+            </FooterTitle>
             {ourWorks.map((work, index) => (
               <Anchor href={work.url} key={index}>
                 <FooterLink>{work.title}</FooterLink>
