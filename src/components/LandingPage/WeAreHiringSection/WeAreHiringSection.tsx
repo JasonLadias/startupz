@@ -13,17 +13,20 @@ const WeAreHiringSection: FC = () => {
         <img
           src="/assets/employee.svg" // Change this to your image path
           alt="Startupz Employee"
+          loading="lazy" 
           className="h-auto w-1/4"
         />
         <img
           src="/assets/employer.svg" // Change this to your image path
           alt="Startupz Employer"
+          loading="lazy" 
           className="h-auto w-1/4"
         />
       </div>
       <img
         src="/assets/employee.svg" // Change this to your image path
         alt="Startupz Employee"
+        loading="lazy" 
         style={{
           position: "absolute",
           left: 0,
@@ -37,6 +40,7 @@ const WeAreHiringSection: FC = () => {
       <img
         src="/assets/employer.svg" // Change this to your image path
         alt="Startupz Employer"
+        loading="lazy" 
         style={{
           position: "absolute",
           right: 0,

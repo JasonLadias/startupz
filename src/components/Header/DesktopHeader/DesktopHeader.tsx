@@ -1,17 +1,18 @@
 import Anchor from "@/components/Anchor";
 import Button from "@/components/Button";
+import Image from "next/image";
 import { FC } from "react";
 
 const DesktopHeader: FC = () => {
   return (
     <header className="flex flex-row items-center justify-between">
       <Anchor href="/">
-        <img
+        <Image
           src="/logo.svg"
           alt="logo"
           width={200}
           height={48}
-          loading="eager"
+          priority={true}
         />
       </Anchor>
       <div className="flex flex-row justify-start items-center gap-10">

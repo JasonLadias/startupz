@@ -1,12 +1,13 @@
 import { FC, useEffect, useState } from "react";
+import Image from "next/image";
 
 const VirtualInstructor: FC = () => {
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     setTimeout(() => {
       setIsVisible(true);
-    }, 2000);
+    }, 5000);
 
     return () => {
       setIsVisible(false);
@@ -46,10 +47,13 @@ const VirtualInstructor: FC = () => {
         {/* Virtual Instructor Content */}
         <div className="flex flex-col items-end pt-3 w-full space-x-2 w-13 h-13 rounded-full">
           <div className="bg-white p-1 rounded-full shadow-lg">
-            <img
-              src="/assets/assistant.svg"
-              alt="Virtual Instructor"
-              className="w-12 h-12 rounded-full"
+            <Image
+              src="/assets/assistant.svg" // Path to your image
+              alt="Virtual Instructor" // Alt text
+              width={48} // Width of the image
+              height={48} // Height of the image
+              className="rounded-full" // Class names
+              loading="lazy"
             />
           </div>
         </div>

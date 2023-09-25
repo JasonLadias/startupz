@@ -16,6 +16,7 @@ const ContactSection: FC = () => {
         <img
           src="/assets/rocket.svg"
           alt="StartupZ Hero"
+          loading="lazy" 
           className="block lg:hidden"
           style={{
             width: "100%",
@@ -27,6 +28,7 @@ const ContactSection: FC = () => {
       <img
         src="/assets/rocket.svg"
         alt="StartupZ Hero"
+        loading="lazy" 
         className="hidden lg:block"
         style={{
           position: "absolute",

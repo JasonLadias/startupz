@@ -18,7 +18,7 @@ const Footer: FC = () => {
         {/* Logo Column */}
         <div className="lg:col-start-1 lg:col-end-2 col-start-2 col-end-3 row-start-2 lg:row-start-1 flex flex-col h-full">
           <div className="transform -translate-y-1/6 lg:-translate-y-1/3">
-            <img src="/logo.svg" alt="Company Logo" />
+            <img src="/logo.svg" alt="Company Logo" loading="lazy" />
           </div>
           <div className="mt-auto">
             <AllRightsReserved>

@@ -30,6 +30,7 @@ const WorkCard: FC<CardProps> = ({ previousWork }) => {
             src={previousWork.image}
             alt={previousWork.title}
             className="w-full h-48 md:h-64 object-contain group-hover:animate-custom-bounce"
+            loading="lazy" 
           />
         </div>
 

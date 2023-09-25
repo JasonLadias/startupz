@@ -2,6 +2,7 @@ import { FC } from "react";
 import Button from "@/components/Button";
 import { H1, YellowParagraph } from "@/components/Typographies/Typographies";
 import Anchor from "@/components/Anchor";
+import Image from "next/image";
 
 const HeroSection: FC = () => {
   return (
@@ -10,9 +11,13 @@ const HeroSection: FC = () => {
         {/* Image for mobile */}
         <div className="lg:hidden my-3 flex flex-col items-center w-full">
           <div className="sm:max-w-2/3">
-            <img
+            <Image
               src="/assets/hero.svg"
               alt="StartupZ Hero"
+              layout="responsive"
+              width={500} // You should set an explicit width
+              height={300} // And an explicit height
+              priority={true}
               className="w-full object-contain "
             />
           </div>
@@ -34,9 +39,12 @@ const HeroSection: FC = () => {
         {/* Image animation on the right */}
       </div>
 
-      <img
+      <Image
         src="/assets/hero.svg"
         alt="StartupZ Hero"
+        width={500} // You should set an explicit width
+        height={300} // And an explicit height
+        priority={true} // This makes the image load eagerly
         className="absolute bottom-0 right-0 h-auto w-1/2 object-contain animate-slideInRight hidden lg:block"
       />
     </section>

@@ -4,6 +4,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { FC, useCallback, useState } from "react";
 import MobileMenuDrawer from "./MobileMenuDrawer";
 import ClickAwayHandler from "@/components/ClickAwayHandler";
+import Image from "next/image";
 
 const MobileHeader: FC = () => {
   const [isShowing, setIsShowing] = useState(false);
@@ -16,12 +17,12 @@ const MobileHeader: FC = () => {
     <>
       <header className="flex flex-row items-center justify-between">
         <Anchor href="/">
-          <img
+          <Image
             src="/logo.svg"
             alt="logo"
             width={200}
             height={48}
-            loading="eager"
+            priority={true}
           />
         </Anchor>
         <div
