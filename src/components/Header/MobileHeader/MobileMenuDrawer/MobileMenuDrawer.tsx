@@ -12,18 +12,18 @@ const MobileHeader: FC<MobileHeaderProps> = ({ isShowing, setIsShowing }) => {
   return (
     <Transition
       show={isShowing}
-      enter="transition-opacity duration-75"
+      enter="transition-opacity ease-linear duration-50"
       enterFrom="opacity-0"
       enterTo="opacity-100"
-      leave="transition-opacity duration-150"
+      leave="transition-opacity ease-linear duration-50"
       leaveFrom="opacity-100"
       leaveTo="opacity-0"
     >
       <Transition.Child
-        enter="transition-opacity ease-linear duration-300"
+        enter="transition-opacity ease-linear duration-50"
         enterFrom="opacity-0"
         enterTo="opacity-100"
-        leave="transition-opacity ease-linear duration-300"
+        leave="transition-opacity ease-linear duration-50"
         leaveFrom="opacity-100"
         leaveTo="opacity-0"
       >
